@@ -12,38 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Formula.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Formula.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="990">
-              <caret line="57" column="38" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MathOperation.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/MathOperation.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Cadenas.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Cadenas.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -53,6 +26,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -66,6 +40,13 @@
         <option value="$PROJECT_DIR$/src/Formula.java" />
         <option value="$PROJECT_DIR$/src/Formula2.java" />
         <option value="$PROJECT_DIR$/src/Cadenas.java" />
+        <option value="$PROJECT_DIR$/src/Formula/FormulaRefactored.java" />
+        <option value="$PROJECT_DIR$/src/formula/Formula.java" />
+        <option value="$PROJECT_DIR$/src/test/FormulaTest.java" />
+        <option value="$PROJECT_DIR$/src/formula/FormulaRefactoredTest.java" />
+        <option value="$PROJECT_DIR$/src/characters/CharOperation.java" />
+        <option value="$PROJECT_DIR$/src/formula/FormulaRefactored.java" />
+        <option value="$PROJECT_DIR$/src/test/FormulaRefactoredTest.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
@@ -90,30 +71,45 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="better-programmer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="better-programmer" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms-with-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithms-with-java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="better-programmer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="better-programmer" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms-with-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithms-with-java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="formula" />
+      <recent name="test" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -127,17 +123,117 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="algorithms-with-java" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
     </configuration>
+    <configuration name="FormulaRefactoredTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithms-with-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.FormulaRefactoredTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="FormulaRefactoredTest.isBalanced_withABalancedFormula_returnTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithms-with-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.FormulaRefactoredTest" />
+      <option name="METHOD_NAME" value="isBalanced_withABalancedFormula_returnTrue" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="FormulaRefactoredTest.isBalanced_withANull_returnFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithms-with-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.FormulaRefactoredTest" />
+      <option name="METHOD_NAME" value="isBalanced_withANull_returnFalse" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="FormulaRefactoredTest.isBalanced_withAUnbalancedFormula_returnFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithms-with-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.FormulaRefactoredTest" />
+      <option name="METHOD_NAME" value="isBalanced_withAUnbalancedFormula_returnFalse" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.FormulaRefactoredTest" />
+      <item itemvalue="JUnit.FormulaRefactoredTest.isBalanced_withAUnbalancedFormula_returnFalse" />
+      <item itemvalue="JUnit.FormulaRefactoredTest.isBalanced_withABalancedFormula_returnTrue" />
+      <item itemvalue="JUnit.FormulaRefactoredTest.isBalanced_withANull_returnFalse" />
+      <item itemvalue="Application.Main" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.FormulaRefactoredTest.isBalanced_withANull_returnFalse" />
+        <item itemvalue="JUnit.FormulaRefactoredTest" />
+        <item itemvalue="JUnit.FormulaRefactoredTest.isBalanced_withABalancedFormula_returnTrue" />
+        <item itemvalue="JUnit.FormulaRefactoredTest.isBalanced_withAUnbalancedFormula_returnFalse" />
       </list>
     </recent_temporary>
   </component>
@@ -156,11 +252,45 @@
       <workItem from="1531909246167" duration="2503000" />
       <workItem from="1531912061032" duration="1940000" />
       <workItem from="1531914036713" duration="253000" />
+      <workItem from="1532873082044" duration="14073000" />
+      <workItem from="1532898909645" duration="286000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="FormulaRefactoredTest_isOpeningCharacter_withOpeningCharacter_returnTrue - 2018.07.29 at 17h 53m 05s.xml">
+      <configuration name="FormulaRefactoredTest.isOpeningCharacter_withOpeningCharacter_returnTrue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FormulaRefactoredTest - 2018.07.29 at 17h 54m 18s.xml">
+      <configuration name="FormulaRefactoredTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FormulaRefactoredTest_isBalanced_withAUnbalancedFormula_returnFalse - 2018.07.29 at 17h 55m 06s.xml">
+      <configuration name="FormulaRefactoredTest.isBalanced_withAUnbalancedFormula_returnFalse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FormulaRefactoredTest - 2018.07.29 at 17h 55m 22s.xml">
+      <configuration name="FormulaRefactoredTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FormulaRefactoredTest_isBalanced_withAUnbalancedFormula_returnFalse - 2018.07.29 at 17h 56m 28s.xml">
+      <configuration name="FormulaRefactoredTest.isBalanced_withAUnbalancedFormula_returnFalse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FormulaRefactoredTest_isBalanced_withABalancedFormula_returnTrue - 2018.07.29 at 17h 56m 32s.xml">
+      <configuration name="FormulaRefactoredTest.isBalanced_withABalancedFormula_returnTrue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FormulaRefactoredTest - 2018.07.29 at 17h 56m 36s.xml">
+      <configuration name="FormulaRefactoredTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FormulaRefactoredTest - 2018.07.29 at 17h 58m 59s.xml">
+      <configuration name="FormulaRefactoredTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FormulaRefactoredTest_isBalanced_withANull_returnFalse - 2018.07.29 at 17h 59m 27s.xml">
+      <configuration name="FormulaRefactoredTest.isBalanced_withANull_returnFalse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FormulaRefactoredTest_isBalanced_withANull_returnFalse - 2018.07.29 at 18h 00m 41s.xml">
+      <configuration name="FormulaRefactoredTest.isBalanced_withANull_returnFalse" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19979000" />
+    <option name="totallyTimeSpent" value="34338000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="936" extended-state="6" />
@@ -178,14 +308,14 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26618123" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27427185" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39974937" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -201,7 +331,19 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -209,7 +351,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Formula.java">
+    <entry file="file://$PROJECT_DIR$/src/formula/Formula.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="57" column="38" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cadenas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MathOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/formula/Formula.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="990">
           <caret line="57" column="38" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
@@ -237,13 +407,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BetterProgrammer2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="32" lean-forward="true" selection-start-column="32" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BetterProgrammer2.java" />
     <entry file="file://$PROJECT_DIR$/src/Cadenas.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -258,13 +422,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BetterProgrammer2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BetterProgrammer2.java" />
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -272,7 +430,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Formula.java">
+    <entry file="file://$PROJECT_DIR$/src/formula/Formula.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1026">
           <caret line="57" column="38" lean-forward="true" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
@@ -309,10 +467,41 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Formula2.java" />
-    <entry file="file://$PROJECT_DIR$/src/BetterProgrammer2.java">
+    <entry file="file://$PROJECT_DIR$/src/BetterProgrammer2.java" />
+    <entry file="file://$PROJECT_DIR$/src/MathOperation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="32" selection-start-column="32" selection-end-column="32" />
+        <state relative-caret-position="180">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/CharSequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="176" column="29" selection-start-line="176" selection-start-column="29" selection-end-line="176" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/formula/Formula.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="69" column="26" lean-forward="true" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/FormulaTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/characters/CharOperation.java" />
+    <entry file="jar://$PROJECT_DIR$/lib/junit-jupiter-api-5.0.0.jar!/org/junit/jupiter/api/Test.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/formula/FormulaRefactored.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="39" lean-forward="true" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -323,24 +512,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/test/FormulaRefactoredTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <caret line="8" column="50" lean-forward="true" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Formula.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="57" column="38" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MathOperation.java">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
